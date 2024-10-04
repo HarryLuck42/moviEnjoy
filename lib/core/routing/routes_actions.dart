@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:my_products/core/routing/routes.dart';
 import 'package:my_products/layout/movie_review/movie_review_screen.dart';
 import 'package:my_products/layout/movies/movies_screen.dart';
-import 'package:my_products/layout/movies/movies_screen.dart';
 import 'package:my_products/layout/settings/settings_screen.dart';
 import 'package:my_products/layout/splash/splash_screen.dart';
 import 'package:my_products/model/response/movies_response.dart';

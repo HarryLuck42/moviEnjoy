@@ -3,7 +3,6 @@ import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:my_products/core/base/base_state.dart';
 import 'package:my_products/model/response/movies_response.dart';
 import 'package:my_products/widgets/custom_app_bar.dart';
-import 'package:provider/provider.dart';
 
 import '../../initial/locale/localizations.dart';
 import '../state_widgets/loading_list.dart';

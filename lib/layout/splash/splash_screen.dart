@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_products/core/base/base_state.dart';
 import 'package:my_products/core/constraint/asset_path.dart';
-import 'package:my_products/core/constraint/spacer.dart';
-import 'package:my_products/core/extention/extention.dart';
 import 'package:my_products/core/routing/routing.dart';
-import 'package:my_products/initial/locale/localizations.dart';
-import 'package:my_products/widgets/custom_text.dart';
 
 import '../../core/routing/routes.dart';
 

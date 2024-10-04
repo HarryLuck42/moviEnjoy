@@ -8,7 +8,6 @@ import 'package:rxdart/rxdart.dart';
 
 import '../../core/constraint/const.dart';
 import '../../model/response/movies_response.dart';
-import '../../service/api_handling.dart';
 
 part 'movie_review_provider.g.dart';
 

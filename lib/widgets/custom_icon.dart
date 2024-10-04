@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:my_products/app.dart';
 import 'package:my_products/core/extention/extention.dart';
 
 class CustomIcon extends StatelessWidget {

@@ -4,9 +4,6 @@ import 'package:dio_http_formatter/dio_http_formatter.dart';
 import 'package:my_products/core/constraint/const.dart';
 import 'package:my_products/service/api_service.dart';
 
-import '../core/constraint/sp_keys.dart';
-import '../core/memory/shared/share_preference.dart';
-
 class ApiRepository{
   late final Dio _dio;
   late final ApiService _apiService;

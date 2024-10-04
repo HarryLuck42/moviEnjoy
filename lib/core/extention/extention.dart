@@ -97,12 +97,6 @@ extension ContextScreen on BuildContext {
     return SharedPreference().readStorage(SpKeys.isLightTheme) ?? false;
   }
 
-  // String getNameByDate() {
-  //   final DateTime now = DateTime.now();
-  //   final DateFormat formatter = DateFormat('yyyyMMdd_HHmmss');
-  //   return formatter.format(now);
-  // }
-
   String getCurrentDate() {
     final DateTime now = DateTime.now();
     final DateFormat formatter = DateFormat('yyyy-MM-dd HH:mm:ss');

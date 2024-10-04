@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:my_products/widgets/custom_icon.dart';
-import 'package:my_products/widgets/custom_text.dart';
 
 class CustomIconDropdownButton extends StatefulWidget {
   List<String> items;
