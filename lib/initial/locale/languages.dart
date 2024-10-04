@@ -1,0 +1,61 @@
+class Languages{
+  String? appTitle;
+  String? loading;
+  String? noInternet;
+  String? settings;
+  String? dark;
+  String? light;
+  String? language;
+  String? noDataFound;
+  String? nowPlaying;
+  String? popular;
+  String? upcoming;
+  String? topRated;
+  String? bookmarks;
+  String? movieReviews;
+  String? seeReview;
+  String? search;
+  String? movieTrailers;
+  String? watchTrailer;
+  String? votes;
+  String? popularity;
+  String? production;
+  String? country;
+  String? budget;
+  String? revenue;
+  String? synopsis;
+  String? noSynopsis;
+  String? homepage;
+  String? movieDetail;
+
+  Languages.fromJson(Map<String, String> json){
+    appTitle = json['app_title'];
+    loading = json['loading'];
+    noInternet = json['no_internet'];
+    settings = json['settings'];
+    dark = json['dark'];
+    light = json['light'];
+    language = json['language'];
+    noDataFound = json['no_data_found'];
+    nowPlaying = json['now_playing'];
+    popular = json['popular'];
+    upcoming = json['upcoming'];
+    topRated = json['top_rated'];
+    bookmarks = json['bookmarks'];
+    movieReviews = json['movie_reviews'];
+    seeReview = json['see_review'];
+    search = json['search'];
+    movieTrailers = json['movie_trailers'];
+    watchTrailer = json['watch_trailer'];
+    votes = json['votes'];
+    popularity = json['popularity'];
+    production = json['production'];
+    country = json['country'];
+    budget = json['budget'];
+    revenue = json['revenue'];
+    synopsis = json['synopsis'];
+    noSynopsis = json['no_synopsis'];
+    homepage = json['homepage'];
+    movieDetail = json['movie_detail'];
+  }
+}
