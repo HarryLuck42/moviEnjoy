@@ -1,16 +1,18 @@
-# my_products
+**MoviEnjoy - Hariyanto Lukman**
 
-A new Flutter project.
+1. Run the project
+    - sync the gradle
+    - clean the project
+    - rebuild the project
+    - run the project (deploy)
+2. Additional features, improvements, or challenges
+    - Use management state mobx
+    - Use RxDart to stream movie data
+    - Search and filter movie data
+    - Show the detail of a movie
+    - Can watch trailer and teaser video
+    - See reviews of a movie
+    - Use drawer navigation to filter the video data
+    - Bookmark the movie data
+    - Cache the poster of a movie
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
